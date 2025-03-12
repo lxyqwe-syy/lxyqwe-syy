@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>机械加压装置计算器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>机械加压装置计算器</h1>
+        
+        <label for="pressure">请输入压强 (N/m²)：</label>
+        <input type="number" id="pressure" placeholder="输入压强" required>
+
+        <label for="area">请输入加工工件的表面积 (m²)：</label>
+        <input type="number" id="area" placeholder="输入表面积" required>
+
+        <label for="thickness">请输入加工工件的厚度 (mm)：</label>
+        <input type="number" id="thickness" placeholder="输入厚度" required>
+
+        <button id="calculateBtn">计算旋转圈数</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
